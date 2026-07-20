@@ -8,7 +8,8 @@ SCP: CS plugin (RP)
 **Установка:** 
 1) Оба `.lua` файла запихнуть в папку `Plugins`;
 2) Файлы из папок в архиве `Windows` и `Android` поместить в папки `Plugins/client/Windows` и `Plugins/client/Android` соответственно;
-3) Установить `init.lua` из репозитория `RP-Init` в папку `Plugins` (если не установлен) либо самостоятельно в существующем init файле зарегистрировать классы:
+3) В зависимости от ОС сервера поместить в папку `Plugins/server` файл `scp096bag` из папки архива `Windows` или `Linux`; 
+4) Установить `init.lua` из репозитория `RP-Init` в папку `Plugins` (если не установлен) либо самостоятельно в существующем init файле зарегистрировать классы:
 * В InitClient:
 ```
     PluginAPI.RegisterRoomEvent("SCP096BagManager")
